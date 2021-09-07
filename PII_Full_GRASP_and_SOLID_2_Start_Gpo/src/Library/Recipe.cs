@@ -27,6 +27,13 @@ namespace Full_GRASP_And_SOLID.Library
             this.steps.Remove(step);
         }
 
+
+        /* Basicamente lo que se hizo fue cambiar el formato de como estaba pensado inicialmente el metodo PrintRecipe, y se le agrego Text al final del nombre del metodo
+        para indicar que ahra lo que va a devolver va a ser un String.
+        Se ajustaron algunos detalles que permitiera realizar esto y se creo una nueva clase ConsolePrinter como se pedia en la letra que recibe como parametro el string que devuelve el
+        metodo PrintRecipeText.
+        Como la clase ConsolePrinter es la encargada de imprimir en Consola, se le derivaron todas las responsabilidades a tal tarea, para esto se utiliza el patron EXPERT.
+        y a su vez tambien se aplica el principio SRP ya que ahora la clase Recipe ya no tiene la responsabilidad de imprimir la receta.    */
         public string PrintRecipeText()
         {
             int count = 1;
