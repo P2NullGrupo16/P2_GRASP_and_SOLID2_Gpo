@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XXzRpiks1UVXAIHTIhuOBOIpJqMoi5ISsqrfy7zIMzkZGDq/IpfvBV77xBikRVhC4nEpUH0BzqoQtSiS8oneAw==",
+  "dgSpecHash": "JBV5/8rk1VmDnzW4vLtk/Z6rcdQ0dtnQfMhmb6NCGhr3hvi0VvvSv8FWZcOzi2J41fWt5r7SaTBZD1kkx0dE+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jpere\\OneDrive - Universidad Católica del Uruguay\\Segundo Semestre\\Programación 2\\PII_Full_GRASP_and_SOLID_1_Start_Gpo\\src\\Library\\Library.csproj",
+  "projectFilePath": "C:\\Users\\juaperez\\OneDrive - Universidad Católica del Uruguay\\Segundo Semestre\\Programación 2\\P2_GRASP_and_SOLID2_Gpo\\PII_Full_GRASP_and_SOLID_2_Start_Gpo\\src\\Library\\Library.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jpere\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\jpere\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\jpere\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\juaperez\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\juaperez\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\juaperez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }
