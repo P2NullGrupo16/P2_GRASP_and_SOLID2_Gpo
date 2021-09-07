@@ -17,7 +17,7 @@ namespace Full_GRASP_And_SOLID.Library
         public double CostoInsumos()        // calcula el costo de los insumos para elaborar
         {
             double costoInsumos = 0;
-            costoInsumos =  this.Prep.Input.UnitCost;
+            costoInsumos = this.Prep.Input.UnitCost;
             return costoInsumos;
         }
         public double CostoEquipo()   //calcula el costo de utilizar el equipo
@@ -33,7 +33,7 @@ namespace Full_GRASP_And_SOLID.Library
             double subTotalEquipo = CostoEquipo();
             double subTotalMateriales = CostoInsumos();
             double costoFinal = subTotalEquipo+subTotalMateriales;
-            string costoFinalStr = $"Preparar {this.Prep.Input.Description}: Costo Equipo ${subTotalEquipo.ToString()} + Costo Materiales ${subTotalMateriales.ToString()} = Costo ${costoFinal.ToString()}";
+            string costoFinalStr = $"Preparar {this.Prep.Input.Description}: Costo Equipo ${subTotalEquipo.ToString()} + Costo Materiales ${subTotalMateriales.ToString()} = Costo ${costoFinal.ToString()}\n";
             return costoFinalStr;
         }
     }
